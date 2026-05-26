@@ -1,0 +1,37 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "open-mythos"
+version = "0.5.0"
+description = "OpenMythos — open-source Recurrent-Depth Transformer architecture | Rhodawk fork"
+license = "MIT"
+authors = ["Kye Gomez <kye@swarms.world>", "Rhodawk AI"]
+homepage = "https://github.com/Architect8989/OpenMythos"
+repository = "https://github.com/Architect8989/OpenMythos"
+keywords = [
+    "artificial intelligence",
+    "deep learning",
+    "transformers",
+    "recurrent transformers",
+    "looped transformers",
+    "mixture of experts",
+    "multi-latent attention",
+    "adaptive computation time",
+    "recurrent depth transformer",
+    "LTI stability",
+    "inference-time scaling",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+torch = ">=2.0"
+transformers = ">=4.40.0"
+datasets = ">=2.18.0"
+
+[tool.poetry.extras]
+flash = ["flash-attn"]
+
+[tool.poetry.group.test.dependencies]
+pytest = ">=8.1.1,<10.0.0"
