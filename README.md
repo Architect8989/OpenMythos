@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Forked from [kyegomez/OpenMythos](https://github.com/kyegomez/OpenMythos) — an open-source reproduction of the Recurrent-Depth Transformer (RDT) architecture. Tests fixed: 75/76 passing.
+Open-source reproduction of the Recurrent-Depth Transformer (RDT) architecture — forked from [kyegomez/OpenMythos](https://github.com/kyegomez/OpenMythos). Tests fixed: 75/76 passing.
 
 > Open-source alternative to the Recurrent-Depth Transformer with LTI injection,
 > Mixture-of-Experts, MLA, ACT halting, and depth-extrapolating LoRA.
@@ -121,5 +121,4 @@ python3 -m pytest tests/ -v
 
 ---
 
-Fork maintained by [Rhodawk AI](https://github.com/Architect8989) — building autonomous DevSecOps.
-Original by [@kyegomez](https://github.com/kyegomez). License: MIT.
+Rhodawk OpenMythos — maintained by [Rhodawk AI](https://github.com/Architect8989). Forked from [kyegomez/OpenMythos](https://github.com/kyegomez/OpenMythos) (MIT License).
